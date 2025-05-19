@@ -3,19 +3,23 @@ import Link from "next/link";
 export default function NavBar() {
   return (
     <>
-      <div className="min-h-screen bg-[#0e0e0e] text-[#EDE9DD] flex flex-col justify-end items-start px-[20px]">
-        <div className=" pb-[80px]  flex flex-col  text-white ">
+      <div className="min-h-screen bg-[#0e0e0e] text-[#EDE9DD] flex flex-col justify-end items-start px-[20px] lg:px-[80px] w-full">
+        <div className=" pb-[50px] lg:pb-[40px]  flex flex-col  text-white w-full">
           <div>
-            <p className="text-[12px] tracking-wider">
+            <p className="text-[12px] lg:text-[20px] tracking-wider">
               FULLSTACK / BLOCKCHAIN / DREAM CHASER
             </p>
           </div>
-          <div className="flex gap-[20px] ">
-            <div>
-              <h1 className="text-[80px] tracking-normal">SAISEI</h1>
-              <h1 className="text-[80px] tracking-normal">KYUU</h1>
+          <div className="flex gap-[20px] lg:justify-between lg:items-between w-full">
+            <div className="lg:flex">
+              <h1 className="text-[80px] lg:text-[160px] tracking-normal">
+                SAISEI
+              </h1>
+              <h1 className="text-[80px] lg:text-[160px] tracking-normal">
+                KYUU
+              </h1>
             </div>
-            <div className="text-[14px] flex flex-col justify-center  items-center ">
+            <div className="text-[14px] lg:text-[24px] flex flex-col justify-center  items-center ">
               <p>ポ</p>
               <p>ー</p>
               <p>ト</p>
