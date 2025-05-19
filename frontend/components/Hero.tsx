@@ -15,16 +15,14 @@ export default function NavBar() {
               <h1 className="text-[80px] tracking-normal">SAISEI</h1>
               <h1 className="text-[80px] tracking-normal">KYUU</h1>
             </div>
-            <div className="text-[8px] flex flex-col justify-center  items-center ">
-              <p>P</p>
-              <p>O</p>
-              <p>R</p>
-              <p>T</p>
-              <p>F</p>
-              <p>O</p>
-              <p>L</p>
-              <p>I</p>
-              <p>O</p>
+            <div className="text-[14px] flex flex-col justify-center  items-center ">
+              <p>ポ</p>
+              <p>ー</p>
+              <p>ト</p>
+              <p>フ</p>
+              <p>ォ</p>
+              <p>リ</p>
+              <p>オ</p>
             </div>
           </div>
         </div>
