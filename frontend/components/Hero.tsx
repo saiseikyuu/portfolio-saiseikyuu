@@ -11,12 +11,12 @@ export default function NavBar() {
             </p>
           </div>
           <div className="flex gap-[20px] lg:justify-between lg:items-between w-full">
-            <div className="lg:flex">
-              <h1 className="text-[80px] lg:text-[160px] tracking-normal">
-                SAISEI
+            <div className="lg:flex lg:gap-[0px] lg:items-center">
+              <h1 className="text-[46px] lg:text-[140px] tracking-normal">
+                SAISEIKYUU
               </h1>
-              <h1 className="text-[80px] lg:text-[160px] tracking-normal">
-                KYUU
+              <h1 className="text-[70px] lg:text-[140px] tracking-normal">
+                YAGAMI
               </h1>
             </div>
             <div className="text-[14px] lg:text-[24px] flex flex-col justify-center  items-center ">
